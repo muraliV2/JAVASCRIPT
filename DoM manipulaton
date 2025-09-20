@@ -1,0 +1,8 @@
+<p id = "wer"> Lorem ipsum dolor sit amet.</p>
+
+<script>
+var demo = document.getElementById("wer")
+demo.textContent
+console.log(demo.textContent)
+demo.textContent = "bye lorem"
+</script>
