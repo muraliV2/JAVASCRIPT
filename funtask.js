@@ -21,7 +21,8 @@
 
     function yamal()
     {
-        result.textContent ="foke winner"
-        alert("he will win in future")
+        var jh = document.createElement("h1")
+        jh.textContent = "he will win in futurre"
+        result.append(jh)
     }
 </script>
