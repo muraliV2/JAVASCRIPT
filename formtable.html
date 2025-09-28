@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Form</title>
+</head>
+<body>
+<center>
+  <h1>STUDENT FORM</h1>
+
+  <table border="1">
+    <tr>
+      <td>Name :</td>
+      <td><input type="text" id="name"></td>
+    </tr>
+    <tr>
+      <td>Age :</td>
+      <td><input type="number" id="age"></td>
+    </tr>
+    <tr>
+      <td>Gender :</td>
+      <td>
+        <input type="radio" name="gender" value="Male">Male
+        <input type="radio" name="gender" value="Female">Female
+      </td>
+    </tr>
+    <tr>
+      <td>Course:</td>
+      <td>
+        <!-- give the select a unique id -->
+        <select id="courseSelect">
+          <option>JavaScript</option>
+          <option>Python</option>
+          <option>Java</option>
+          <option>C++</option>
+        </select>
+      </td>
+    </tr>
+    <tr>
+      <td>Email :</td>
+      <td><input type="email" id="email"></td>
+    </tr>
+    <tr>
+      <td colspan="2" align="center">
+        <button style="color:aquamarine;background-color:darkgoldenrod;" onclick="submitData()">Save</button>
+      </td>
+    </tr>
+  </table>
+
+  <br>
+
+  <!-- Table to display saved data -->
+  <table border="1">
+    <tr>
+      <th>Name</th><th>Age</th><th>Gender</th><th>Course</th><th>Email</th>
+    </tr>
+    <tr>
+      <td id="outName"></td>
+      <td id="outAge"></td>
+      <td id="outGender"></td>
+      <td id="outCourse"></td>
+      <td id="outEmail"></td>
+    </tr>
+  </table>
+</center>
+
+<script>
+  // input elements
+  var myname   = document.getElementById("name");
+  var myage    = document.getElementById("age");
+  var mycourse = document.getElementById("courseSelect");
+  var myemail  = document.getElementById("email");
+
+  // output cells
+  var outName   = document.getElementById("outName");
+  var outAge    = document.getElementById("outAge");
+  var outGender = document.getElementById("outGender");
+  var outCourse = document.getElementById("outCourse");
+  var outEmail  = document.getElementById("outEmail");
+
+  function submitData() {
+      // find which gender radio button is selected
+      var gender = document.querySelector('input[name="gender"]:checked');
+
+      outName.textContent   = myname.value;
+      outAge.textContent    = myage.value;
+      outGender.textContent = gender ? gender.value : "";
+      outCourse.textContent = mycourse.value;
+      outEmail.textContent  = myemail.value;
+      
+
+  }
+</script>
+</body>
+</html>
