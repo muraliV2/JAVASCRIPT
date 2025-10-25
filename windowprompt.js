@@ -15,3 +15,8 @@
 let username;
 username = window.prompt("what is your name")
 console.log(username)
+
+
+we can accept input by using two ways 
+this is the firstway
+by using window.prompt
