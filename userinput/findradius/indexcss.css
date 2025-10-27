@@ -1,0 +1,13 @@
+let pi = 3.1416;
+let radius;
+let circumference;
+document.getElementById("bt").onclick = function()
+{
+  radius =  Number(document.getElementById("enum").value) 
+  let  result = document.getElementById("ans")
+
+  circumference = 2 * pi * radius 
+  result.textContent = circumference
+  
+
+}
