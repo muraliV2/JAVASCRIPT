@@ -1,0 +1,25 @@
+*
+{
+  text-align: center;
+}
+#lab
+{
+    font-size: 70px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.bt
+{
+   height: 50px;
+   width: 90px;
+    padding: 10px 20px;
+    text-align: center;
+    cursor: pointer;
+    background-color: rgb(109, 109, 173);
+    transition: background-color 0.25 ;
+    
+}
+.bt:hover
+{
+    background-color: brown;
+}
+   
