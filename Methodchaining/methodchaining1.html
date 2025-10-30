@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <label for="in">enter name</label>
+    <input type="text" id="in"> <br> <br>
+    <input type="submit" id="btn"> <br> <br>
+    <label for="" id="ans"></label>
+</body>
+<script>
+    let input = document.getElementById("in")
+    let res = document.getElementById("ans")
+
+    let btn = document.getElementById("btn").onclick = function()
+    {
+     let name = input.value
+     name = name.trim().charAt(0).toUpperCase() + name.trim().slice(1).toLowerCase()
+
+
+
+        res.textContent = name
+    }
+
+</script>
+</html>
