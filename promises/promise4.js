@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+let log = true
+let login = new Promise((resolve,reject) =>
+{
+setTimeout(()=>{
+{
+if(log)
+{
+    resolve("login successfull")
+}
+else
+{
+    reject("login unsuccessfull")
+}
+}
+}
+)
+})
+
+login.then(value => console.log(value))
+.catch(error => console.log(error))
+
+
+</script>
+</html>
