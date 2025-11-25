@@ -1,0 +1,14 @@
+function sub(...numbers)
+{
+    let result=0;
+    for(let number of numbers)
+    {
+result-=number
+v    }
+
+
+
+}
+
+let sub1 = sub(1,2,3,4,5,6)
+console.log("your balance" +sub1)
