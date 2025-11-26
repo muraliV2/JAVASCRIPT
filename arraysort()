@@ -1,0 +1,4 @@
+let aff =["apple","banana","ele","cat","guy"]
+let m = aff.sort().reverse();
+console.log(m) 
+// sort with respect to alphabets
