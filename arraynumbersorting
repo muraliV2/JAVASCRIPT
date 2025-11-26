@@ -1,0 +1,13 @@
+let am = [88.55,12,96,7,1,3]
+let g = am.sort()((a,b)=>a-b)
+console.log(g)
+
+// for ascending order
+
+
+
+let am = [88.55,12,96,7,1,3]
+let g = am.sort().reverse((a,b)=>a-b)
+console.log(g)
+
+// for descending order
