@@ -1,0 +1,15 @@
+let person =
+{
+    name : "murali,",
+    age : 25,
+    FavoriteFood: "briyani",
+}
+
+let pe =
+{
+    ...person,
+    status: "umemployed",
+    hobby : "watching football"
+}
+
+console.log(pe)
