@@ -5,3 +5,5 @@ function capi(element)
 {
 return element.charAt(0).toUpperCase() + element.slice(1)
 }
+
+map concept in js
