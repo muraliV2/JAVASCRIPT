@@ -9,7 +9,6 @@
     <label for="" id="result"></label>
 </body>
 <script>
-
     let res = document.getElementById("result")
     let a =() =>{
         console.log("i am arrow")
