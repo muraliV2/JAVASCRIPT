@@ -1,6 +1,5 @@
 import { demo } from "./func.js";
 import { ad } from "./funct2.js";
-
 clearTimeout(() =>
 {
     demo()
