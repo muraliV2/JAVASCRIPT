@@ -17,9 +17,6 @@ export function demo()
 {
     console.log("hi demo")
 }
-
-
-
  export function ad()
 {
     for( let i=1;i<=5;i++)
