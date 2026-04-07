@@ -5,8 +5,6 @@ clearTimeout(() =>
 {
     demo()
 },2000)
-
-
 clearTimeout(() =>
 {
     ad()
