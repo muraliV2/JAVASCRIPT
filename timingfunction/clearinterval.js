@@ -9,7 +9,6 @@ clearTimeout(() =>
 {
     ad()
 },3000)
-
 setTimeout(() =>
 {
     console.log("hello")
