@@ -3,8 +3,6 @@
 <button onclick="check()">check</button> <br><br>
 <p id="result">you guess is wrong/right</p>
 <p id="chance">remaining chance:6</p>
-
-
 <script>
     var entnum = document.getElementById("guessnum")
     var result = document.getElementById("result")
