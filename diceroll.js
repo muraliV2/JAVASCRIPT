@@ -10,7 +10,6 @@
     var chance1=6
     var random = Math.floor(Math.random()*6)+1
     console.log(random)
-
     function check()
     {
 var mynum = entnum.value
