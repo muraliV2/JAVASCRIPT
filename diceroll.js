@@ -25,6 +25,5 @@ else
     chance1=chance1-1
     chance.textContent = "chance =" +chance1
 }
-
     }
 </script>
