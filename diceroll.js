@@ -17,7 +17,6 @@ if(mynum == random)
 {
 result.textContent = "you are right"
 alert("you are right")
-
 }
 else
 {
