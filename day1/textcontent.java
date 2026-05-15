@@ -13,7 +13,7 @@
   <script src="./index.js"></script>
 </body>
 </html>
-  let username
+let username
 document.getElementById("bt").onclick =function()
 {
   username =  document.getElementById("con").value 
