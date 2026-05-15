@@ -13,7 +13,6 @@
   <script src="./index.js"></script>
 </body>
 </html>
-
   let username
 document.getElementById("bt").onclick =function()
 {
