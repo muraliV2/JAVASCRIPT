@@ -10,7 +10,6 @@
 </body>
 </html>
 let age;
-
  age = window.prompt("how old are you")
  age = Number(age)
 age+=1
