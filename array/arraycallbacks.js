@@ -6,8 +6,6 @@ function hi(element,index,array)
      array[index] = 2*element
      console.log(array)
 }
-
-
 //element => provides element
 //index => provides the index value
 //array => provides the entire array
