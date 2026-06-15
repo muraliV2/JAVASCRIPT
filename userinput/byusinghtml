@@ -16,6 +16,6 @@
 let username ;
 document.getElementById("bt").onclick = function()
 {
-    username= document.getElementById("con").value
+   username= document.getElementById("con").value
    console.log(username)
 }
