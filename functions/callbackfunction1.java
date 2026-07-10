@@ -6,7 +6,6 @@
     <title>Document</title>
 </head>
 <body>
-    
 </body>
 <script>
     function aswin(a,b)
