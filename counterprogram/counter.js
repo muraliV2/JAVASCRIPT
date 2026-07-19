@@ -8,7 +8,6 @@ dec.onclick = function()
     count--
     ans.textContent = count
 }
-
 res.onclick = function()
 {
     count = 0;
