@@ -15,6 +15,6 @@ res.onclick = function()
 }
 inc.onclick = function()
 {
-    count ++
+count ++
     ans.textContent = count
 }
