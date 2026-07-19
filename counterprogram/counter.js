@@ -3,7 +3,6 @@ let dec = document.getElementById("de")
 let res = document.getElementById("re")
 let inc = document.getElementById("in")
 let ans = document.getElementById("lab")
-
 dec.onclick = function()
 {
     count--
