@@ -11,7 +11,7 @@
     function job()
     {
     console.log("you are hired")
-        function intern()
+    function intern()
         {
 console.log("hired 6 months for intern")
         }
