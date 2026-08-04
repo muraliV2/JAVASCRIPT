@@ -10,7 +10,7 @@
 <script>
     function job()
     {
-        console.log("you are hired")
+    console.log("you are hired")
         function intern()
         {
 console.log("hired 6 months for intern")
