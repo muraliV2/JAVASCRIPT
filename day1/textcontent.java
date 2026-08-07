@@ -6,7 +6,7 @@
     <title>Document</title>
 </head>
 <body>
-    <label for="">Enter name</label>
+   <label for="">Enter name</label>
     <input type="text" id="con"> 
     <button id="bt">submit</button>
 <h1 id="mynum">enter your name</h1>
