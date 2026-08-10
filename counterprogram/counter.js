@@ -5,7 +5,7 @@ let inc = document.getElementById("in")
 let ans = document.getElementById("lab")
 dec.onclick = function()
 {
-    count--
+count--
     ans.textContent = count
 }
 res.onclick = function()
