@@ -10,7 +10,7 @@ ans.textContent = count
 }
 res.onclick = function()
 {
-    count = 0;
+count = 0;
     ans.textContent = count
 }
 inc.onclick = function()
