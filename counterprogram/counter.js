@@ -6,7 +6,7 @@ let ans = document.getElementById("lab")
 dec.onclick = function()
 {
 count--
-    ans.textContent = count
+ans.textContent = count
 }
 res.onclick = function()
 {
