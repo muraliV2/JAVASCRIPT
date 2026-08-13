@@ -11,7 +11,7 @@
     function bunty(a)
     {
     console.log("i am bunty")
-        a()
+    a()
     }
     bunty(function cherry()
     {
