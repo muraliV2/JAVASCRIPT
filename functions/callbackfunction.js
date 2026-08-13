@@ -15,7 +15,7 @@
     }
     bunty(function cherry()
     {
-        console.log("i am cherry")
+    console.log("i am cherry")
     })
 </script>
 </html>
