@@ -10,7 +10,7 @@
 <script>
     function bunty(a)
     {
-        console.log("i am bunty")
+    console.log("i am bunty")
         a()
     }
     bunty(function cherry()
